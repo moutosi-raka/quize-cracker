@@ -1,14 +1,14 @@
 import React from 'react';
 import './Option.css'
 
-const Option = ({option,handleChange}) => {
+const Option = ({option,handleChange,correctAnswer}) => {
     return (
         <div className='option-container'>
               <label>
             <input
               type="radio"
               name='option'
-              onChange={()=>handleChange(option)}
+              onChange={()=>handleChange(option,correctAnswer)}
             />
             {option}
           </label>
