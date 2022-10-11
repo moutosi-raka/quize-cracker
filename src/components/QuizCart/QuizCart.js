@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './QuizCart.css'
 
 const QuizCart = ({cart}) => {
-    console.log(cart)
     const {name, id, logo,total} = cart;
     return (
         <div className='cart-container'>

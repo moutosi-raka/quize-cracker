@@ -1,0 +1,10 @@
+.question-container{
+    border: 1px solid gray;
+    width: 60%;
+    margin: 20px auto;
+}
+.options-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
