@@ -1,0 +1,14 @@
+.carts-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+@media screen  and (max-width: 576px){
+    .carts-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
