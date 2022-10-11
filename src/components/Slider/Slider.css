@@ -1,5 +1,5 @@
 .carousel .slide img {
-    height: 27rem;
+    height: 30rem;
     object-fit: cover;
     /* position: relative; */
    
@@ -24,4 +24,7 @@
 .carousel .slide h1 {
     font-size: 30px;
     
+}
+.carousel .thumbs{
+    text-align: center;
 }
