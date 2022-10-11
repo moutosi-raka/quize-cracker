@@ -15,15 +15,15 @@
 .header .logo{
     font-weight: 800;
     font-size: 25px;
-    color: orangered;
+    color: skyblue;
 }
 
 .header a:hover, .logo:hover{
     color: aliceblue;
 }
 .inactive{
-    color: orangered;
+    color: skyblue;
 }
 .activeStyle{
-    color: rgb(228, 196, 14);
+    color: rgb(33, 159, 209);
 }
