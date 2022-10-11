@@ -15,10 +15,6 @@ const Header = () => {
 
             <NavLink className={({ isActive }) =>
               isActive ? 'activeStyle' : 'inactive'
-            } to="/topic">Topic</NavLink>
-
-            <NavLink className={({ isActive }) =>
-              isActive ? 'activeStyle' : 'inactive'
             } to="/statistic">Statistic</NavLink>
 
             <NavLink className={({ isActive }) =>

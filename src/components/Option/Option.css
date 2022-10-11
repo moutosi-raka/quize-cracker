@@ -2,4 +2,8 @@
     
     border: 1px solid gray;
     margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(38, 38, 38);
+    color: rgb(244, 237, 237);
 }

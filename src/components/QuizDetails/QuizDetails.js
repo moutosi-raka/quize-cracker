@@ -6,12 +6,15 @@ import './QuizDetails.css'
 const QuizDetails = () => {
     const quiz = useLoaderData().data;
     const questions = quiz.questions; 
+    
     return (
         <div className='questions-container'>
             <h1 className='quiz-name'>Quiz of {quiz.name}</h1>
             <div>
+
             {
-                questions.map(questionDetails => <Question key={questionDetails.id} questionDetails ={questionDetails}></Question>)
+                questions.map((questionDetails, inx) => 
+                <Question inx={inx} key={questionDetails.id} questionDetails ={questionDetails}></Question>)
             }
             </div>
         </div>
