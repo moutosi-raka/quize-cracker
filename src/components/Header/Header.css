@@ -27,3 +27,45 @@
 .activeStyle{
     color: rgb(33, 159, 209);
 }
+.header .fa-bars, .fa-xmark{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.nav-icons{
+    display: none;
+}
+.nav-link{
+    position: static;
+}
+.top-4{
+    top: .3rem;
+}
+.top-120{
+    top: -6.7rem;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .header{
+        flex-direction: column;
+        text-align: left;
+        height: 5rem;
+    }
+    .header a{
+        display: block;
+    }
+    .nav-link{
+        margin-top: 20px;
+        margin-left: 30px;
+        position: absolute;
+        transition: all 0.5s ease-out;
+    }
+    .nav-icons{
+        display: block;
+    }
+    .header .logo{
+        display: none;
+    }
+}
