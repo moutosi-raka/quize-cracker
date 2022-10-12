@@ -13,7 +13,7 @@ const QuizCart = ({cart}) => {
                 <div>
                 <h3>{name}</h3>
             <p> Total Quiz: {total}</p>
-            <Link to={`/${id}`}><button className='practice-btn'>Start Practice</button></Link>
+            <Link to={`quiz/${id}`}><button className='practice-btn'>Start Practice</button></Link>
                 </div>
             </div>
         </div>
